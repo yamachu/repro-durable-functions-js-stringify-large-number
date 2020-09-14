@@ -1,0 +1,43 @@
+2020-09-14T14:31:22.262 [Information] Executing 'Functions.DurableFunctionsHttpStart' (Reason='This function was programmatically called via the host APIs.', Id=44ba0ea1-13e9-484d-8e9d-465d4c09360c)
+2020-09-14T14:31:22.281 [Information] 65152985ec9741ed97c5fd94195f0d7c: Function 'DurableFunctionsOrchestratorJS (Orchestrator)' scheduled. Reason: NewInstance. IsReplay: False. State: Scheduled. HubName: reprodurablefunctionsjsstringifylargenumber. AppName: repro-durable-functions-js-stringify-large-number. SlotName: Production. ExtensionVersion: 2.2.2. SequenceNumber: 17.
+2020-09-14T14:31:22.432 [Information] Started orchestration with ID = '65152985ec9741ed97c5fd94195f0d7c'.
+2020-09-14T14:31:22.432 [Information] Executed 'Functions.DurableFunctionsHttpStart' (Succeeded, Id=44ba0ea1-13e9-484d-8e9d-465d4c09360c, Duration=170ms)
+2020-09-14T14:31:22.434 [Information] Executing 'Functions.DurableFunctionsOrchestratorJS' (Reason='(null)', Id=7e795b2e-82ca-4959-95ec-c87ac15da46a)
+2020-09-14T14:31:22.435 [Information] 65152985ec9741ed97c5fd94195f0d7c: Function 'DurableFunctionsOrchestratorJS (Orchestrator)' started. IsReplay: False. Input: (88 bytes). State: Started. HubName: reprodurablefunctionsjsstringifylargenumber. AppName: repro-durable-functions-js-stringify-large-number. SlotName: Production. ExtensionVersion: 2.2.2. SequenceNumber: 18.
+2020-09-14T14:31:22.443 [Information] currentValue type name: string
+2020-09-14T14:31:22.443 [Information] value: 1234567890
+2020-09-14T14:31:22.443 [Information] 65152985ec9741ed97c5fd94195f0d7c: Function 'Hello (Activity)' scheduled. Reason: DurableFunctionsOrchestratorJS. IsReplay: False. State: Scheduled. HubName: reprodurablefunctionsjsstringifylargenumber. AppName: repro-durable-functions-js-stringify-large-number. SlotName: Production. ExtensionVersion: 2.2.2. SequenceNumber: 19.
+2020-09-14T14:31:22.443 [Information] Executed 'Functions.DurableFunctionsOrchestratorJS' (Succeeded, Id=7e795b2e-82ca-4959-95ec-c87ac15da46a, Duration=9ms)
+2020-09-14T14:31:22.444 [Information] 65152985ec9741ed97c5fd94195f0d7c: Function 'DurableFunctionsOrchestratorJS (Orchestrator)' awaited. IsReplay: False. State: Awaited. HubName: reprodurablefunctionsjsstringifylargenumber. AppName: repro-durable-functions-js-stringify-large-number. SlotName: Production. ExtensionVersion: 2.2.2. SequenceNumber: 20.
+2020-09-14T14:31:22.460 [Information] 65152985ec9741ed97c5fd94195f0d7c: Function 'Hello (Activity)' started. IsReplay: False. Input: (56 bytes). State: Started. HubName: reprodurablefunctionsjsstringifylargenumber. AppName: repro-durable-functions-js-stringify-large-number. SlotName: Production. ExtensionVersion: 2.2.2. SequenceNumber: 21.
+2020-09-14T14:31:22.460 [Information] Executing 'Functions.Hello' (Reason='(null)', Id=80ecddeb-cb25-4920-b0cd-70621fb659c5)
+2020-09-14T14:31:22.462 [Information] Hello Activity...
+2020-09-14T14:31:22.463 [Information] Hello Activity bigId type name: number
+2020-09-14T14:31:22.463 [Information] value: 1234567890
+2020-09-14T14:31:22.464 [Information] Executed 'Functions.Hello' (Succeeded, Id=80ecddeb-cb25-4920-b0cd-70621fb659c5, Duration=3ms)
+2020-09-14T14:31:22.465 [Information] 65152985ec9741ed97c5fd94195f0d7c: Function 'Hello (Activity)' completed. ContinuedAsNew: False. IsReplay: False. Output: (40 bytes). State: Completed. HubName: reprodurablefunctionsjsstringifylargenumber. AppName: repro-durable-functions-js-stringify-large-number. SlotName: Production. ExtensionVersion: 2.2.2. SequenceNumber: 22.
+2020-09-14T14:31:22.262 [Information] Executing 'Functions.DurableFunctionsHttpStart' (Reason='This function was programmatically called via the host APIs.', Id=44ba0ea1-13e9-484d-8e9d-465d4c09360c)
+2020-09-14T14:31:22.432 [Information] Started orchestration with ID = '65152985ec9741ed97c5fd94195f0d7c'.
+2020-09-14T14:31:22.432 [Information] Executed 'Functions.DurableFunctionsHttpStart' (Succeeded, Id=44ba0ea1-13e9-484d-8e9d-465d4c09360c, Duration=170ms)
+2020-09-14T14:31:22.460 [Information] Executing 'Functions.Hello' (Reason='(null)', Id=80ecddeb-cb25-4920-b0cd-70621fb659c5)
+2020-09-14T14:31:22.462 [Information] Hello Activity...
+2020-09-14T14:31:22.463 [Information] Hello Activity bigId type name: number
+2020-09-14T14:31:22.463 [Information] value: 1234567890
+2020-09-14T14:31:22.464 [Information] Executed 'Functions.Hello' (Succeeded, Id=80ecddeb-cb25-4920-b0cd-70621fb659c5, Duration=3ms)
+2020-09-14T14:31:22.434 [Information] Executing 'Functions.DurableFunctionsOrchestratorJS' (Reason='(null)', Id=7e795b2e-82ca-4959-95ec-c87ac15da46a)
+2020-09-14T14:31:22.443 [Information] currentValue type name: string
+2020-09-14T14:31:22.443 [Information] value: 1234567890
+2020-09-14T14:31:22.443 [Information] Executed 'Functions.DurableFunctionsOrchestratorJS' (Succeeded, Id=7e795b2e-82ca-4959-95ec-c87ac15da46a, Duration=9ms)
+2020-09-14T14:31:22.626 [Information] Executing 'Functions.DurableFunctionsOrchestratorJS' (Reason='(null)', Id=789fba96-4e7f-4a41-a02b-0744d4f220cb)
+2020-09-14T14:31:22.626 [Information] Executing 'Functions.DurableFunctionsOrchestratorJS' (Reason='(null)', Id=789fba96-4e7f-4a41-a02b-0744d4f220cb)
+2020-09-14T14:31:22.630 [Information] currentValue type name: string
+2020-09-14T14:31:22.630 [Information] value: 1234567890
+2020-09-14T14:31:22.631 [Information] returnValue type name: number
+2020-09-14T14:31:22.631 [Information] value: 1234567890
+2020-09-14T14:31:22.638 [Information] 65152985ec9741ed97c5fd94195f0d7c: Function 'DurableFunctionsOrchestratorJS (Orchestrator)' completed. ContinuedAsNew: False. IsReplay: False. Output: (40 bytes). State: Completed. HubName: reprodurablefunctionsjsstringifylargenumber. AppName: repro-durable-functions-js-stringify-large-number. SlotName: Production. ExtensionVersion: 2.2.2. SequenceNumber: 23.
+2020-09-14T14:31:22.638 [Information] Executed 'Functions.DurableFunctionsOrchestratorJS' (Succeeded, Id=789fba96-4e7f-4a41-a02b-0744d4f220cb, Duration=12ms)
+2020-09-14T14:31:22.630 [Information] currentValue type name: string
+2020-09-14T14:31:22.630 [Information] value: 1234567890
+2020-09-14T14:31:22.631 [Information] returnValue type name: number
+2020-09-14T14:31:22.631 [Information] value: 1234567890
+2020-09-14T14:31:22.638 [Information] Executed 'Functions.DurableFunctionsOrchestratorJS' (Succeeded, Id=789fba96-4e7f-4a41-a02b-0744d4f220cb, Duration=12ms)
